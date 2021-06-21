@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+.UserCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	background: #262626;
+	width: 100%;
+	height: 100vh;
+}
+
+.outer1 {
+	position: relative;
+	background: #fff;
+	height: 350px;
+	width: 550px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.image {
+	position: absolute;
+	margin-top: 20px;
+	margin-right: 20px;
+	z-index: 0;
+	animation-delay: 0.5s;
+}
+
+.content {
+	animation-delay: 0.3s;
+	position: absolute;
+	left: 20px;
+	z-index: 3
+	
+}
+
+h2 {
+	color:rgb(250, 196, 20);
+}
+
+p {
+	width: 280px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: black;
+	margin: 20px 0;
+	
+	
+}
+
+.bg {
+	display: inline-block;
+	color: #fff;
+	background: cornflowerblue;
+	padding: 5px 10px;
+	border-radius: 50px;
+	font-size: .7em;
+}
+
+
+.cart-icon {
+	padding-right: 8px;	
+}
+
